@@ -1,0 +1,10 @@
+CRITICAL - 2024-10-15 06:55:48 --> Undefined index: phone
+#0 D:\greenlife\app\Controllers\Registro.php(133): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\greenlife\\ap...', 133, Array)
+#1 D:\greenlife\system\CodeIgniter.php(1647): App\Controllers\Registro->validacion()
+#2 D:\greenlife\system\CodeIgniter.php(819): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registro))
+#3 D:\greenlife\system\CodeIgniter.php(635): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\greenlife\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\greenlife\system\Commands\Server\rewrite.php(85): require_once('D:\\greenlife\\pu...')
+#6 {main}
+ERROR - 2024-10-15 06:58:16 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+ERROR - 2024-10-15 07:25:31 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
